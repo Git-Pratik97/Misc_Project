@@ -1,10 +1,58 @@
 package com.example.tripPlanner.dto;
 
-import java.util.Date;
 
 public class UserDTO {
     private long id;
-    private Date date;
-    private 
+    private String name;
+    private String phonenum;
+    private boolean availability;
+    private String reason;
+    
+	public UserDTO() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getPhonenum() {
+		return phonenum;
+	}
+
+	public void setPhonenum(String phonenum) {
+		this.phonenum = phonenum;
+	}
+
+	public boolean isAvailability() {
+		return availability;
+	}
+
+	public void setAvailability(boolean availability) {
+		this.availability = availability;
+	}
+
+	public String getReason() {
+		return reason;
+	}
+
+	public void setReason(String reason) {
+		this.reason = reason;
+	}
+	
+	
 
 }
