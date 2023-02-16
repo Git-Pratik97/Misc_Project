@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-package com.example.tripPlanner.entity;
 
-public class User {
-}
-=======
 package com.example.tripPlanner.entity;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -60,4 +54,4 @@ public class User {
    
 	
 }
->>>>>>> 36e904d44cbff320583ac76fb32f6015b7c3f8c0
+
