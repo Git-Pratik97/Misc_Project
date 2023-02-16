@@ -45,7 +45,6 @@ public class IPlanServiceImpl implements IPlanService{
         }
 
         List<PlanDTO> planDTOS = new ArrayList<>();
-
         plans.forEach(plan -> {
             PlanDTO planDTO = plan.toPlanDTO();
             planDTOS.add(planDTO);

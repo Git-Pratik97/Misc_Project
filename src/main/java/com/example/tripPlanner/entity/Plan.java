@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.example.tripPlanner.entity;
 
 import com.example.tripPlanner.dto.PlanDTO;
@@ -92,3 +93,9 @@ public class Plan {
         return planDTO;
     }
 }
+=======
+package com.example.tripPlanner.entity;
+
+public class Plan {
+}
+>>>>>>> 36e904d44cbff320583ac76fb32f6015b7c3f8c0
